@@ -2,6 +2,8 @@
 #include <linux/module.h>
 #include <linux/syscalls.h>
 
+extern void *sys_call_table[];
+
 static int __init backdoor_init(void){
 	printk("[file] module loaded\n");
 }
