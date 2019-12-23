@@ -33,7 +33,6 @@
 
 /**
  * Save user input to a file
- * TODO: make the file undeletable
  */ 
 static int saveinput(struct thread *t, char c){
     // Some magical code
